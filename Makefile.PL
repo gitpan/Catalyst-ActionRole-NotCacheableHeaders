@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
     'HTTP::Date' => '0',
     'Moose' => '0.90'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }

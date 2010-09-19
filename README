@@ -1,9 +1,9 @@
 NAME
-    Catalyst::ActionRole::NotCachableHeaders - Set no cache headers for
+    Catalyst::ActionRole::NotCacheableHeaders - Set no cache headers for
     actions
 
 VERSION
-    version 0.01
+    version 0.02
 
 SYNOPSIS
         package MyApp::Controller::Foo;
@@ -13,10 +13,10 @@ SYNOPSIS
         BEGIN { extends 'Catalyst::Controller::ActionRole' }
 
         __PACKAGE__->config(
-            action_roles => [qw( NotCachableHeaders )],
+            action_roles => [qw( NotCacheableHeaders )],
         );
 
-        sub dont_cache_me : Local NotCachable { ... }
+        sub dont_cache_me : Local NotCacheable { ... }
 
 DESCRIPTION
     Provides a ActionRole to set HTTP headers instructing proxies and

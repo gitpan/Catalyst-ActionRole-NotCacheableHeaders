@@ -19,7 +19,7 @@ my %module_build_args = (
     'Alex J. G. Burzyński <ajgb@cpan.org>'
   ],
   'dist_name' => 'Catalyst-ActionRole-NotCacheableHeaders',
-  'dist_version' => '0.01',
+  'dist_version' => '0.02',
   'license' => 'perl',
   'module_name' => 'Catalyst::ActionRole::NotCacheableHeaders',
   'recommends' => {
